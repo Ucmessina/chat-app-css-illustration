@@ -1,7 +1,7 @@
-@mixin pseudo($width, $height) {
-    content: '';
-    position: absolute;
-    width: $width;
-    height: $height;
-    @content;
+@mixin pseudo($width: 100%, $height: 100%) {
+  content: '';
+  position: absolute;
+  width: $width;
+  height: $height;
+  @content;
 }
