@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <!-- PON UN FAVICON!!! -->
-    <link rel="icon" type="image/svg+xml"
-      href="./assets/images/favicon-32x32.png" />
+    <link rel="icon" type="image/svg+xml" href="./assets/images/favicon-32x32.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CAMBIA EL TITLE!!! -->
     <title>Vite Template</title>
@@ -13,54 +12,86 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-      rel="stylesheet" />
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <main class="main"></main>
+    <main class="main">
+      <div class="mobile">
+        <div class="mobile__header">
+          <img class="icon-arrow" src="./assets/images/arrow.svg" alt="arrow icon" />
+          <div class="user">
+            <img class="user__profile--image" src="./assets/images/avatar.jpg" alt="avatar image" />
+            <div class="user__info">
+              <span class="user__name">Samuel Green</span>
+              <span class="user__status">Avaliable to Walk</span>
+            </div>
+          </div>
+
+          <img class="icon--points" src="./assets/images/points.svg" alt="points icon" />
+        </div>
+
+        <div class="mobile__messages">
+          <p class="mobile__message">That sounds great. I’d be happy to discuss more.</p>
+          <p class="mobile__message">Could you send over some pictures of your dog, please?</p>
+          <div class="mobile__message--container mobile__message--right">
+            <img src="./assets/images/dog-image-1.jpg" alt="dog image 1" />
+            <img src="./assets/images/dog-image-2.jpg" alt="dog image 2" />
+            <img src="./assets/images/dog-image-3.jpg" alt="dog image 3" />
+          </div>
+          <p class="mobile__message mobile__message--right">Here are a few pictures. She’s a happy girl!</p>
+          <p class="mobile__message mobile__message--right">Can you make it?</p>
+          <p class="mobile__message">
+            She looks so happy! The time we discussed works. How long shall I take her out for?
+          </p>
+          <div class="mobile__message--price">
+            <p class="mobile__message--circle"></p>
+            <p class="mobile__message--info">30 minute walk</p>
+            <div class="mobile__price">
+              <p class="mobile__price--text">$</p>
+              <p class="mobile__price--text">29</p>
+            </div>
+          </div>
+          <div class="mobile__message--price mobile__message--last">
+            <p class="mobile__message--circle"></p>
+            <p class="mobile__message--info">1 hour walk</p>
+            <div class="mobile__price">
+              <p class="mobile__price--text">$</p>
+              <p class="mobile__price--text">49</p>
+            </div>
+          </div>
+
+          <div class="mobile__type">
+            <span class="mobile__type--message">Type a message…</span>
+            <p class="mobile__send"><img src="./assets/images/arrow-right.svg" alt="" /></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="information">
+        <h1 class="title">Simple booking</h1>
+        <p class="paragraph">
+          Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and
+          make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.
+        </p>
+      </div>
+    </main>
 
     <!--
-    <div class="mobile">
-      <div class="name">
-        <div class="user">
-          <img src="./assets/images/Path 4.png" alt="" />
-          <img class="user__picture" src="./assets/images/avatar.jpg" alt="" />
-          <div class="user__info">
-            <p class="user__name">Samuel Green</p>
-            <p class="user__status">Available to Walk</p>
-          </div>
-          <img class="user__more" src="./assets/images/Combined Shape.png" alt="" />
-        </div>
-        <div class="name__box">
-          <p class="name__msg">That sounds great. I’d be happy to discuss more.</p>
-        </div>
-        <div class="name__box">
-          <p class="name__msg">Could you send over some pictures of your dog, please?</p>
-        </div>
+      1.  Trabajar en version mobil 
+      2.  Estilos del main en main
+      3.  
+      4.  
+      5.  
+      6.  
+      7.  
+      8.  
+      9.  
+      10. 
 
-        <div class="dog">
-          <img class="dog__box" src="./assets/images/dog-image-1.jpg" alt="" />
-          <img class="dog__box" src="./assets/images/dog-image-2.jpg" alt="" />
-          <img class="dog__box" src="./assets/images/dog-image-3.jpg" alt="" />
-        </div>
-      </div>
-    </div> -->
 
-    <div class="mobile">
-      <div class="mobile__header">
-        <!-- <img src="./assets/images/Path 4.png" alt /> -->
-        <img class="mobile__picture" src="./assets/images/avatar.jpg" alt />
-        <div class="user">
-          <span class="user__name">Samule Green</span>
-          <span class="user__status">Avaliable to wolk</span>
-        </div>
-
-        <!-- <img class="user__more" src="./assets/images/Combined Shape.png" alt /> -->
-      </div>
-
-      <p class="message">That sounds great. I’d be happy to discuss more.</p>
-      <p class="message message--right">That sounds great. I’d be happy to
-        discuss more.</p>
-    </div>
+    
+    -->
 
     <script type="module" src="./js/index.js"></script>
   </body>

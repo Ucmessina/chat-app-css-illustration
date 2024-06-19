@@ -2,6 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: #fafafa;
+  background-color: var(--bg-color);
   font-family: sans-serif;
+  overflow-x: clip;
 }
