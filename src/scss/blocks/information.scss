@@ -1,4 +1,9 @@
+@use '../mixins/responsive.scss' as *;
 .information {
   text-align: center;
   padding-inline: 16px;
+  @include responsive(desktop) {
+    text-align: left;
+    grid-column: 4 / 6;
+  }
 }
