@@ -1,10 +1,10 @@
-# Título del proyecto
+# Chat App Css Illutrator
 
-![Imagen del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/IMAGEN-DEL-PROYECTO.jpg?raw=true)
+![Imagen del proyecto](https://raw.githubusercontent.com/Umberto-Calogero-Messina/chat-app-css-illustration/main/src/design/desktop-design.jpg)
 
 ## Ejemplo en vivo
 
-- [URL-de-github-pages-de-este-proyecto](URL-de-github-pages-de-este-proyecto)
+- [URL-de-github-pages-de-este-proyecto](https://github.com/Umberto-Calogero-Messina/chat-app-css-illustration)
 
 ## Descripción 📑
 
@@ -25,16 +25,15 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptatum et esse, 
 
 Si quieres echar un vistazo al proyecto, te recomiendo:
 
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
+![Captura del proyecto](https://raw.githubusercontent.com/Umberto-Calogero-Messina/chat-app-css-illustration/main/src/design/desktop-design.jpg)
+![Captura del proyecto](https://raw.githubusercontent.com/Umberto-Calogero-Messina/chat-app-css-illustration/main/src/design/desktop-preview.jpg)
+![Captura del proyecto](https://raw.githubusercontent.com/Umberto-Calogero-Messina/chat-app-css-illustration/main/src/design/mobile-design.jpg)
 
 ## Autor ✒️
 
-**TU NOMBRE**
+**Umberto Calogero Messina**
 
-- [micorreo@midominio.com](micorreo@midominio.com)
-- [LinkedIn](https://www.linkedin.com/in/tu-url-de-linkedin/)
+- [LinkedIn](https://www.linkedin.com/in/umberto-calogero-messina-9b716026b/)
 
 ## Instalación
 
